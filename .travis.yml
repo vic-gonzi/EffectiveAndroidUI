@@ -10,4 +10,4 @@ android:
     - extra-android-support
 
 script:
-  ./gradlew checkstyle pmd findbugs build --debug --stacktrace
+  ./gradlew checkstyle pmd findbugs build --info --stacktrace
