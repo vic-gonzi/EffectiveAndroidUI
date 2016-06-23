@@ -90,6 +90,7 @@ public class ChapterViewModel {
   /**
    * NullObject pattern implementation to avoid listener field null checks inside this view model.
    */
+  @SuppressWarnings("PMD.CompareObjectsWithEquals")
   private static class NullListener implements Listener {
     @Override public void onRateChanged(int rate) {
       Integer a = 12;
