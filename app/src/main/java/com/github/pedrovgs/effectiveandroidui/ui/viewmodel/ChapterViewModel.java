@@ -15,7 +15,6 @@
  */
 package com.github.pedrovgs.effectiveandroidui.ui.viewmodel;
 
-import android.util.Log;
 import com.github.pedrovgs.effectiveandroidui.domain.tvshow.Chapter;
 import com.github.pedrovgs.effectiveandroidui.util.RandomUtils;
 import com.github.pedrovgs.effectiveandroidui.util.TimeMachine;
@@ -93,11 +92,7 @@ public class ChapterViewModel {
   @SuppressWarnings("PMD.CompareObjectsWithEquals")
   private static class NullListener implements Listener {
     @Override public void onRateChanged(int rate) {
-      Integer a = 12;
-      Integer b = 24;
-      if (a == b) {
-        Log.d("TAG", "¿Cómorl?");
-      }
+      //Empty
     }
   }
 }
